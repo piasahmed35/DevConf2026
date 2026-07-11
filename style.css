@@ -42,3 +42,42 @@ ul li a{
     text-decoration: none;
 
 }
+/* hero section style */
+.banner{
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+}
+.banner-conent-h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+
+}
+.banner-conent-p{
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.banner-content-btn button{
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center; 
+    padding: 20px 50px;
+    margin-top: 400px;
+    margin-bottom: auto;
+}
