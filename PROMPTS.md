@@ -1,1 +1,1 @@
-Give me a relevant section for dev conference website
+Give me a relevant for dev conference website
