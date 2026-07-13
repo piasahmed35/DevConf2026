@@ -89,7 +89,7 @@ ul li a{
 .speakers h1{
     text-align: center;
     font-size: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     
     
 }
@@ -140,7 +140,8 @@ ul li a{
 /* secure-pricing section */
 .pricing{
     text-align: center;
-    padding: 70px auto;
+    margin: 70px auto;
+    
 }
 
 .pricing h1{
@@ -268,5 +269,116 @@ ul li a{
     color: black;
     border: 1px solid black;
 }
+/* placeholder */
+.placeholder{
+    background-image: url(./assets/placeholder.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    border: 10px;
+    margin-top: 150px;
+}
+.placeholder-1 h2{
+    font-size: 35px;
+    margin-bottom: 700px;
+   
+    
+   /* font-size: 45px;
+    margin-top: 200px; */
+}
+.placeholder-1 p{
+    font-size: 20px;
+    
+}
+
+.placeholder-2 h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.placeholder form input,  .placeholder form textarea{
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.placeholder-3 h1{
+    color: #0bfa03;
+    font-size: 55px;
+    margin: 10px auto;
+
+}
+.placeholder-3 span{
+    color: #33d81d;
+    font-size: 45px;
+    margin: 20px auto;
+}
+
+.placeholder-4 h2 {
+
+    font-size: 55px;
+    color: #FFFFFF;
+    margin: 20px auto;
+
+}
+.placeholder-4 p{
+    font-size: 25px;
+    color: #1bc228;
+}
+/* footer */
+.footer{
+    background: #0D1B2A;
+    padding: 40px 90px;
+}
+
+/* top footer */
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    color: white;
+    font-size: 24px;
+}
+
+.footer-icon span{
+    color: #1D4ED8;
+    font-size: 35px;
+    
+}
 
 
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom p{
+    color:#94A3B8;
+    font-size:15px;
+}
+
+.footer-links a{
+    color:#1e6ad4;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:15px;
+}
+
+.footer-links a:hover{
+    color:white;
+    transform: translateY(-5px);
+}
