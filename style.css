@@ -97,7 +97,7 @@ ul li a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
-    border-radius: 12pxgit ;
+    border-radius: 12px;
 
 }
 .card{
@@ -137,5 +137,136 @@ ul li a{
     max-width: 800px;
 }
 
+/* secure-pricing section */
+.pricing{
+    text-align: center;
+    padding: 70px auto;
+}
+
+.pricing h1{
+    font-size: 45px;
+    margin-top: 200px;
+}
+.pricing p{
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom:40px;
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.pricing-card{
+    width: 330px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px ;
+    position: relative;
+    
+
+}
+.pricing-card h3{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.pricing-card h1{
+    text-align: left;
+    font-size: 48px;
+    margin-top: 5px;
+}
+.pricing-card h4{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+
+}
+.pricing-card hr{
+    margin: auto;
+}
+
+
+.pricing-card-content ul{
+    display: grid;
+    border-radius: 10px;
+    list-style-type: disc;
+    gap: 5px;
+    margin-top: 30px;
+   
+
+}
+.pricing-card-content ul li{
+    text-align: left;
+    margin-left:25px;
+    
+}
+.pricing-card-content li::marker {
+    color: blue;
+}
+
+.pricing-card-content-btn button{
+    text-align: center;
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* standard */
+.standard{
+    background-color: #FFFFFF;
+}
+.standard h3, h4{
+    color: #888888;
+}
+/* pro */
+.pro{
+    background-color: #0D1B2A;
+}
+.pro h3{
+    color: #93C5FD;
+}
+.pro h1{
+    color: #FFFFFF;
+}
+.pro h4{
+    color: #888888;
+}
+.pro ul{
+    color: #FFFFFF;
+}
+.pro button{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: #1D4ED8;
+}
+/* team */
+.team{
+    background-color: #E5E7EB;
+}
+.team h3,h4{
+    color: #888888;
+}
+.team button{
+    
+    color: black;
+    border: 1px solid black;
+}
 
 
